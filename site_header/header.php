@@ -17,7 +17,7 @@ if (!isset($_SESSION["userEmail"])) {
 ?>
     <div style="height: 70px;" class="col-12   navbarMainDivHolder ">
         <div class="row ">
-            <div class="py-0 col-lg-1  col-md-9 col-7 text-md-start  text-start my-auto">
+            <div class="py-0 col-lg-1  col-md-9 col-7 text-md-start  text-start my-auto" onclick="document.location = '/'">
                 <img src="<?=$resource_path?>/icon_images/logo_transparent.png " class=" navbarImage p-0" alt="">
             </div>
 
