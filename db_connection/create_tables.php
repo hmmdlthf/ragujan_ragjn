@@ -13,4 +13,6 @@ $statement2->execute([]);
 
 $statement3 = $create_tables->connect()->prepare($sql3);
 $statement3->execute([]);
+
+echo "successfully executed all the sql";
 ?>
