@@ -10,6 +10,8 @@ $resource_path = GlobalLinkFiles::getDirectoryPath("resources");
 $home_page_script = GlobalLinkFiles::getRelativePath("home_page_script");
 $audio_sample_display_page_shortend = GlobalLinkFiles::getRelativePath("audio_sample_display_page_shortend");
 // include_once $query_path;
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
