@@ -18,6 +18,7 @@ echo $authenticate_download_url;
     <title>Document</title>
 
     <link rel="stylesheet" href="<?=$style_path?>bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <?php include "/head/link_tags.php" ?>
 </head>
 
