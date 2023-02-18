@@ -24,6 +24,7 @@ $cart_script = GlobalLinkFiles::getRelativePath("cart_script");
 
 
     <title>Cart</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body style="background-color: black;">

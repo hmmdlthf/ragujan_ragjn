@@ -67,6 +67,7 @@ if (isset($_GET["unique_id"]) && isset($_GET["dnt"])) {
     <link rel="stylesheet" href="<?= $style ?>">
     <title>authenticate_download</title>
 
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body>

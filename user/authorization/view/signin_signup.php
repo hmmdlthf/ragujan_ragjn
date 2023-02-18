@@ -26,7 +26,8 @@ if (isset($_SESSION["userEmail"])) {
         <link rel="stylesheet" href="<?=$style_path?>forgotPassword.css">
 
         <title>Signin Signup</title>
-    </head>
+        <?php include "/head/link_tags.php" ?>
+</head>
 
     <body>
 

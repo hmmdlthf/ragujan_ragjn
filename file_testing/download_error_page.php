@@ -90,7 +90,8 @@ if (isset($_GET["error_code"])) {
         <link rel="stylesheet" href="<?= $sample_selling_path ?>">
         <link rel="stylesheet" href="<?= $style ?>">
         <title>Download error page</title>
-    </head>
+        <?php include "/head/link_tags.php" ?>
+</head>
 
     <body>
         <div class="">

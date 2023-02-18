@@ -24,6 +24,7 @@ $checkout_script = GlobalLinkFiles::getRelativePath("checkout_script");
     <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
     <script src="https://js.stripe.com/v3/"></script>
     <title>Checkout</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body style="background-color: black;">

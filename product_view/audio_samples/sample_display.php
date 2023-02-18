@@ -31,6 +31,7 @@ $sample_type_name = "melodies";
     <link rel="stylesheet" href="<?= $style_path ?>navbar.css">
 
     <title>BeatSample</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 

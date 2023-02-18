@@ -40,6 +40,7 @@ $sampleArray = array('ID' => $sampleID, 'name' => $sampleName, 'price' => $sampl
     <link rel="stylesheet" href="<?=$style_path?>viewsingleproduct.css">
     <link rel="stylesheet" href="<?=$style_path?>navbar.css">
     <title>Single View</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body>

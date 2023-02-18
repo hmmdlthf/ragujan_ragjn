@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style/purchasedHistory.css">
     <link rel="stylesheet" href="../style/navbar.css">
     <title>Document</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body>

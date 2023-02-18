@@ -38,7 +38,8 @@ if (!isset($_SESSION["userEmail"])) {
 
 
         <title>User Account</title>
-    </head>
+        <?php include "/head/link_tags.php" ?>
+</head>
 
     <body>
 

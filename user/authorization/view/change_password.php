@@ -29,7 +29,8 @@ if (!isset($_SESSION["verifyForgotPasswordEmail"])) {
         <link rel="stylesheet" href="../style/forgotPassword.css">
 
         <title>Change Password</title>
-    </head>
+        <?php include "/head/link_tags.php" ?>
+</head>
 
     <body>
         <div class="container-fluid">

@@ -75,6 +75,7 @@ $are_you_sure = "This is an one time download link for your purchase, we don't t
     <link rel="stylesheet" href="<?= $style ?>">
     <title>authenticate_download</title>
 
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body>

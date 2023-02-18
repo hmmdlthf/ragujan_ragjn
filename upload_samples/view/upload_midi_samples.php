@@ -18,6 +18,7 @@ $style_path = GlobalLinkFiles::getDirectoryPath("style");
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"> -->
 
     <title>Upload_Midi_Samples</title>
+    <?php include "/head/link_tags.php" ?>
 </head>
 
 <body class="container-fluid">
