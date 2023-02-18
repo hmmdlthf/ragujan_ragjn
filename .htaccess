@@ -7,9 +7,8 @@ RewriteRule sample_midi product_view/midi_files/sample_display.php [NC,L]
 RewriteRule singleview product_single_view/view/view_single_product.php [NC,L]
 RewriteRule viewcart view_cart/view/cart.php [NC,L]
 RewriteRule homepage home/index.php [NC,L]
-RewriteRule . home/index.php [NC,L]
 RewriteRule login user/authorization/view/signin_signup.php [NC,L]
 RewriteRule useraccount user/account/view/user_account.php [NC,L]
 Options -Indexes
-DirectoryIndex products/samples/audio
+DirectoryIndex home/index.php
 
