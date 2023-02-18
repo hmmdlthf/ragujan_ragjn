@@ -1,13 +1,13 @@
 <?php
 session_start();
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 
 $style_path = GlobalLinkFiles::getDirectoryPath("style");
 $script = GlobalLinkFiles::getRelativePath("user_account_script");
 $site_header = GlobalLinkFiles::getFilePath("site_header_php");
 if (!isset($_SESSION["userEmail"])) {
-    header('Location: http://localhost/sampleSelling-master/home/home.php');
+    header('Location: http://localhost/home/home.php');
     die();
 ?>
 

@@ -1,7 +1,7 @@
 <?php
 
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 $folder_creation_path = GlobalLinkFiles::getFilePath("folder_creation");
 $home_page_shortend = GlobalLinkFiles::getRelativePath("home_page_shortend");
 $download_error_page = GlobalLinkFiles::getRelativePath("download_error_page");
@@ -12,7 +12,7 @@ require_once "DirectoryZip.php";
 require_once "Validation.php";
 
 $query_object = new DownloadLink();
-$link = "http://localhost/sampleSelling-master/file_testing/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
+$link = "http://localhost/file_testing/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
 
 //error states to display error messages in html
 $input_received = true;

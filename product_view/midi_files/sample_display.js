@@ -6,9 +6,9 @@ let uploadFilesOnly = document.getElementById("uploadFileOnly");
 let uploadAudioOnly = document.getElementById("uploadAudioOnly");
 let uploadImageOnly = document.getElementById("uploadImageOnly");
 
-const midi_display_process_url = "/sampleSelling-master/product_view/midi_files/sample_display_midies_process.php"
-const common_next_function_url_template = "/sampleSelling-master/product_view/midi_files/";
-const sample_search_url = "/sampleSelling-master/product_view/midi_files/sample_type_midi_search.php";
+const midi_display_process_url = "/product_view/midi_files/sample_display_midies_process.php"
+const common_next_function_url_template = "/product_view/midi_files/";
+const sample_search_url = "/product_view/midi_files/sample_type_midi_search.php";
 const midi_sample_div = "sample_display_midies_process";
 document.getElementsByClassName('container-fluid')[0].style.display = "none";
 window.addEventListener("load", async () => {
@@ -111,7 +111,7 @@ function commonNextFunction(current_page_number, sub_sample_id, pageName) {
 
 
 function viewbuy(x) {
-  window.location = "/sampleSelling-master/singleview?X=" + x;
+  window.location = "/singleview?X=" + x;
 }
 
 

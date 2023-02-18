@@ -2,7 +2,7 @@
 
 
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT."/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT."/util/path_config/global_link_files.php";
 $site_header_script = GlobalLinkFiles::getRelativePath("site_header_script");
 $resource_path = GlobalLinkFiles::getDirectoryPath("resources");
 $midi_display_page = GlobalLinkFiles::getRelativePath("midi_sample_display_page");

@@ -1,4 +1,4 @@
-let linkPathUrl_header = "/sampleSelling-master/util/path_config/get_relative_paths.php";
+let linkPathUrl_header = "/util/path_config/get_relative_paths.php";
 let getUrls_header = async (name) => {
   let url;
   let formData = new FormData();
@@ -19,7 +19,7 @@ let getUrls_header = async (name) => {
 
 document.getElementById("cartItemsDiv").addEventListener("click", async () => {
   let url = await getUrls_header("customer_cart");
-  window.location = "/sampleSelling-master/viewcart";
+  window.location = "/viewcart";
 
 });
 const burgerMenu = document.getElementById("burgerMenu");
@@ -35,7 +35,7 @@ burgerMenu.addEventListener("click", () => {
 });
 if (userButton != null) {
   userButton.addEventListener("click", async () => {
-    window.location = "/sampleSelling-master/login";
+    window.location = "/login";
    // window.location = await getUrls_header("sigin_signup_pages_shortend");
 
     //document.body.classList.toggle('stopScrolling')

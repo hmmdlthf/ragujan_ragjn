@@ -1,7 +1,7 @@
 <?php
 session_start();
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 
 $style_path = GlobalLinkFiles::getDirectoryPath("style");
 $site_header = GlobalLinkFiles::getFilePath("site_header_php");

@@ -1,10 +1,10 @@
-const add_to_cart_local_storage_url = "/sampleSelling-master/checkout/process/add_to_cart_local_storage.php"
-const add_to_customer_cart_url = "/sampleSelling-master/checkout/process/add_to_customer_cart.php"
-const get_customer_cart_url = "/sampleSelling-master/checkout/process/get_customer_cart.php";
-const get_sub_total_url = "/sampleSelling-master/checkout/process/get_sub_total.php"
-const remove_from_customer_cart_url = "/sampleSelling-master/checkout/process/remove_from_customer_cart.php"
-const show_cart_rows_url = "/sampleSelling-master/checkout/process/show_cart_rows.php";
-const validate_products_url = "/sampleSelling-master/checkout/process/validate_products.php";
+const add_to_cart_local_storage_url = "/checkout/process/add_to_cart_local_storage.php"
+const add_to_customer_cart_url = "/checkout/process/add_to_customer_cart.php"
+const get_customer_cart_url = "/checkout/process/get_customer_cart.php";
+const get_sub_total_url = "/checkout/process/get_sub_total.php"
+const remove_from_customer_cart_url = "/checkout/process/remove_from_customer_cart.php"
+const show_cart_rows_url = "/checkout/process/show_cart_rows.php";
+const validate_products_url = "/checkout/process/validate_products.php";
 
 
 

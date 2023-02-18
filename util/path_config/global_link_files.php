@@ -5,7 +5,7 @@ class GlobalLinkFiles
 {
     public static function getFilePath($path_name)
     {
-        $file = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/util/path_config/file_paths.json";
+        $file = $_SERVER["DOCUMENT_ROOT"] . "/util/path_config/file_paths.json";
         $unparsed_json_file = file_get_contents($file);
         $object = json_decode($unparsed_json_file);
         $actual_path = "";
@@ -18,7 +18,7 @@ class GlobalLinkFiles
         return $_SERVER['DOCUMENT_ROOT'] . $actual_path;
     }
     public static function getRelativePath($path_name){
-        $file = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/util/path_config/file_paths.json";
+        $file = $_SERVER["DOCUMENT_ROOT"] . "/util/path_config/file_paths.json";
         $unparsed_json_file = file_get_contents($file);
         $object = json_decode($unparsed_json_file);
         $actual_path = "";
@@ -33,7 +33,7 @@ class GlobalLinkFiles
     }
     public static function getDirectoryPath($path_name)
     {
-        $file = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/util/path_config/directory_paths.json";
+        $file = $_SERVER["DOCUMENT_ROOT"] . "/util/path_config/directory_paths.json";
         $unparsed_json_file = file_get_contents($file);
         $object = json_decode($unparsed_json_file);
         $actual_path = "";

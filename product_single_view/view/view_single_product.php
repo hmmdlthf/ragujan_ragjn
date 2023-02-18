@@ -2,7 +2,7 @@
 
 session_start();
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 
 $style_path = GlobalLinkFiles::getDirectoryPath("style");
 $site_header = GlobalLinkFiles::getFilePath("site_header_php");
@@ -24,7 +24,7 @@ $imagePath = $sampleRow["source_URL"];
 $sampleType = $sampleRow["subsampleName"];
 $sampleDescription = $sampleRow["SampleDescription"];
 $sampleArray = array('ID' => $sampleID, 'name' => $sampleName, 'price' => $samplePrice, 'image' => $imagePath);
-// $site_header = "../sampleSelling-master/site_heaer/header.php";
+// $site_header = "../site_heaer/header.php";
 
 ?>
 

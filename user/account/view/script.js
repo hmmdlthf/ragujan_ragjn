@@ -1,7 +1,7 @@
-const purchasedHistoryProcessUrl ="/sampleSelling-master/user/account/process/purchased_history.php" ;
-const userAccountUpdateUrl = "/sampleSelling-master/user/account/process/user_account_update.php";
-const userAccountUpdateFormurl = "/sampleSelling-master/user/account/process/user_account_update_form.php";
-const userInfoDivUrl = "/sampleSelling-master/user/account/util/user_info_div.php";
+const purchasedHistoryProcessUrl ="/user/account/process/purchased_history.php" ;
+const userAccountUpdateUrl = "/user/account/process/user_account_update.php";
+const userAccountUpdateFormurl = "/user/account/process/user_account_update_form.php";
+const userInfoDivUrl = "/user/account/util/user_info_div.php";
 
 
 const updateModeButton = document.querySelector("#updateModeButton");

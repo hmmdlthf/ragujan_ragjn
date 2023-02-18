@@ -1,8 +1,8 @@
-const authorization_process_path = "/sampleSelling-master/user/authorization/process/";
-const view_cart_process_path = "/sampleSelling-master/view_cart/process/" 
-const authorization_view_path = "/sampleSelling-master/user/authorization/view/"
-const home_path = "/sampleSelling-master/home/index.php"
-const resources_path = "/sampleSelling-master/resources/"
+const authorization_process_path = "/user/authorization/process/";
+const view_cart_process_path = "/view_cart/process/" 
+const authorization_view_path = "/user/authorization/view/"
+const home_path = "/home/index.php"
+const resources_path = "/resources/"
 function getCart2() {
 
   return JSON.parse(globalThis.localStorage.getItem("cart") ?? "{}");
@@ -11,7 +11,7 @@ function getCart() {
   let localstorageArray = globalThis.localStorage.getItem("cart");
 
   if (localstorageArray == null) {
-    const url = "/sampleSelling-master/view_cart/process/get_customer_cart.php";
+    const url = "/view_cart/process/get_customer_cart.php";
     fetch(url, { method: "POST" })
       .then((response) => response.json())
       .then((text) => {

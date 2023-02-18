@@ -11,7 +11,7 @@ class GlobalLinkFiles
     public static function getFilePath($path_name)
     {
         if (GlobalGlobalLinkFiles::$root_dir == null) {
-            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/view_cart/util/";
+            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/view_cart/util/";
         }
         $file = $file =  GlobalGlobalLinkFiles::$root_dir . "file_paths.json";
         $unparsed_json_file = file_get_contents($file);
@@ -28,7 +28,7 @@ class GlobalLinkFiles
     public static function getRelativePath($path_name)
     {
         if (GlobalGlobalLinkFiles::$root_dir == null) {
-            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/view_cart/util/";
+            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/view_cart/util/";
         }
         $file =  GlobalGlobalLinkFiles::$root_dir . "file_paths.json";
      
@@ -46,7 +46,7 @@ class GlobalLinkFiles
     public static function getDirectoryPath($path_name)
     {
         if (GlobalGlobalLinkFiles::$root_dir == null) {
-            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/view_cart/util/";
+            GlobalGlobalLinkFiles::$root_dir = $_SERVER["DOCUMENT_ROOT"] . "/view_cart/util/";
         }
         $file = $file =  GlobalGlobalLinkFiles::$root_dir . "directory_paths.json";
         $unparsed_json_file = file_get_contents($file);

@@ -1,6 +1,6 @@
 let cartQtySelect = document.getElementById("selectQTY");
 
-let linkPathUrl_single_product_view = "/sampleSelling-master/product_single_view/util/get_relative_paths.php";
+let linkPathUrl_single_product_view = "/product_single_view/util/get_relative_paths.php";
 let getUrls_single_product_view = async (name) => {
   let url;
   let formData = new FormData();
@@ -148,7 +148,7 @@ let goToviewCart = async (id) => {
             }
           });
         }
-        window.location = "/sampleSelling-master/view_cart/view/cart.php?X=" + id;
+        window.location = "/view_cart/view/cart.php?X=" + id;
       }
     });
 }

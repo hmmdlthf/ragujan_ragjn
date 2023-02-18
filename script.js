@@ -4,7 +4,7 @@ function clickFunction() {
     abc.value = "abc";
     myfile.value = "";
 }
-const linkPathUrl = "/sampleSelling-master/util/path_config/get_relative_paths.php";
+const linkPathUrl = "/util/path_config/get_relative_paths.php";
 let customerurl = "abc";
 let geturl = async (name) => {
     let url;
@@ -29,7 +29,7 @@ let setUrls = async () => {
 setUrls();
 
 
-const authorization_process_path = "/sampleSelling-master/user/authorization/process/";
+const authorization_process_path = "/user/authorization/process/";
 console.log(authorization_process_path + "user_view.php");
 
 

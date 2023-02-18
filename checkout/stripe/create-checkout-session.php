@@ -1,7 +1,7 @@
 <?php
 session_start();
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 
 $vendor_path = GlobalLinkFiles::getFilePath("vendor_autoload");
 $authenticate_download_path = GlobalLinkFiles::getRelativePath("authenticate_download");
@@ -27,7 +27,7 @@ if (array_key_exists("HTTP_HOST", $_SERVER)) {
   $host_name = $_SERVER["HTTP_HOST"];
   
 }
-$link = "http://localhost/sampleSelling-master/file_testing/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
+$link = "http://localhost/file_testing/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
 $authenticate_download_url = $protocol . "://{$host_name}{$authenticate_download_path}";
 //-----------------------
 

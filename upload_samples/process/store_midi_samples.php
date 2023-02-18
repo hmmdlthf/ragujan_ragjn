@@ -2,7 +2,7 @@
 require_once "../utils/Validations.php";
 require_once "../utils/sample_unique_process.php";
 require_once "../query/sample_queries.php";
-require_once $_SERVER["DOCUMENT_ROOT"] . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/util/path_config/global_link_files.php";
 
 $image_path = GlobalLinkFiles::getDirectoryPath("audio_sample_image");
 

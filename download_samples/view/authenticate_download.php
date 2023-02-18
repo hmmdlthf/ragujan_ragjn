@@ -3,7 +3,7 @@
 
 
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 $folder_creation_path = GlobalLinkFiles::getFilePath("folder_creation");
 $style_path = GlobalLinkFiles::getDirectoryPath("style");
 $home_page_shortend = GlobalLinkFiles::getRelativePath("home_page_shortend");
@@ -12,7 +12,7 @@ require_once $header_url;
 require_once "../util/Validation.php";
 require_once "../query/Cart.php";
 
-$link = "http://localhost/sampleSelling-master/download_samples/view/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
+$link = "http://localhost/download_samples/view/authenticate_download.php?unique_id=6374abd38d577&dnt=2022-11-16%2010:22:27";
 $style = $style_path . "authenticate_download.css";
 $bootstap_path = $style_path . "bootstrap.css";
 $sample_selling_path = $style_path . "sampleselling.css";

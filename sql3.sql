@@ -156,16 +156,16 @@ CREATE TABLE IF NOT EXISTS `sampleaudio` (
 
 -- Dumping data for table sampleselling.sampleaudio: ~8 rows (approximately)
 INSERT INTO `sampleaudio` (`sampleAudioSrc`, `sampleID`) VALUES
-	('/sampleSelling-master/products/samples/audio/63547c7688095audio.mp3', 50),
-	('/sampleSelling-master/products/samples/audio/63547d1bc868eaudio.mp3', 51),
-	('/sampleSelling-master/products/samples/audio/63548ca169292audio.mp3', 52),
-	('/sampleSelling-master/products/samples/audio/6355c124571d6audio.mp3', 58),
-	('/sampleSelling-master/products/samples/audio/635cefbc37aacaudio.mp3', 59),
-	('/sampleSelling-master/products/samples/audio/635d2e7b01d98audio.mp3', 60),
-	('/sampleSelling-master/products/samples/audio/635d6ba103e34audio.mp3', 61),
-	('/sampleSelling-master/products/samples/audio/635d6c1e20eceaudio.mp3', 62),
-	('/sampleSelling-master/products/samples/audio/635d6ef46cc37audio.mp3', 63),
-	('/sampleSelling-master/products/samples/audio/635d6fae77748audio.mp3', 64);
+	('/products/samples/audio/63547c7688095audio.mp3', 50),
+	('/products/samples/audio/63547d1bc868eaudio.mp3', 51),
+	('/products/samples/audio/63548ca169292audio.mp3', 52),
+	('/products/samples/audio/6355c124571d6audio.mp3', 58),
+	('/products/samples/audio/635cefbc37aacaudio.mp3', 59),
+	('/products/samples/audio/635d2e7b01d98audio.mp3', 60),
+	('/products/samples/audio/635d6ba103e34audio.mp3', 61),
+	('/products/samples/audio/635d6c1e20eceaudio.mp3', 62),
+	('/products/samples/audio/635d6ef46cc37audio.mp3', 63),
+	('/products/samples/audio/635d6fae77748audio.mp3', 64);
 
 -- Dumping structure for table sampleselling.sampleimages
 CREATE TABLE IF NOT EXISTS `sampleimages` (
@@ -178,30 +178,30 @@ CREATE TABLE IF NOT EXISTS `sampleimages` (
 
 -- Dumping data for table sampleselling.sampleimages: ~22 rows (approximately)
 INSERT INTO `sampleimages` (`source_URL`, `sampleID`) VALUES
-	('/sampleSelling-master/products/samples/image/63547c768cb0d61e764e1b495bimage.jpg', 50),
-	('/sampleSelling-master/products/samples/image/63547d1bcc0f961e764e1b495bimage.jpg', 51),
-	('/sampleSelling-master/products/samples/image/63548ca16d35a61e764e1b495bimage.jpg', 52),
-	('/sampleSelling-master/products/midi/image/635495a50001961e764e1b495bimage.jpg', 53),
-	('/sampleSelling-master/products/midi/image/6354970cb9d0861e764e1b495bimage.jpg', 54),
-	('/sampleSelling-master/products/midi/image/6355bc7dc0e3561e764e1b495bimage.jpg', 55),
-	('/sampleSelling-master/products/midi/image/6355bcca2952b61e764e1b495bimage.jpg', 56),
-	('/sampleSelling-master/products/midi/image/6355bd045480b61e764e1b495bimage.jpg', 57),
-	('/sampleSelling-master/products/samples/image/6355c1245c66061e764e1b495bimage.jpg', 58),
-	('/sampleSelling-master/products/samples/image/635cefbc3eb0661e764e1b495bimage.jpg', 59),
-	('/sampleSelling-master/products/samples/image/635d2e7b0a73e61e764e1b495bimage.jpg', 60),
-	('/sampleSelling-master/products/samples/image/635d6ba1071db61e764e1b495bimage.jpg', 61),
-	('/sampleSelling-master/products/samples/image/635d6c1e2548261e764e1b495bimage.jpg', 62),
-	('/sampleSelling-master/products/samples/image/635d6ef4707e261e764e1b495bimage.jpg', 63),
-	('/sampleSelling-master/products/samples/image/635d6fae7ac2a61e764e1b495bimage.jpg', 64),
-	('/sampleSelling-master/products/samples/image/635d71e5172b961e764e1b495bimage.jpg', 65),
-	('/sampleSelling-master/products/samples/image/635d7227bd2c061e764e1b495bimage.jpg', 66),
-	('/sampleSelling-master/products/samples/image/635d729430ea361e764e1b495bimage.jpg', 67),
-	('/sampleSelling-master/products/samples/image/635d77305419b61e764e1b495bimage.jpg', 68),
-	('/sampleSelling-master/products/samples/image/635d7791898a861e764e1b495bimage.jpg', 69),
-	('/sampleSelling-master/products/samples/image/635d77b95347761e764e1b495bimage.jpg', 70),
-	('/sampleSelling-master/products/samples/image/635d77c82593961e764e1b495bimage.jpg', 71),
-	('/sampleSelling-master/products/samples/image/635d7877d6de161e764e1b495bimage.jpg', 72),
-	('/sampleSelling-master/products/samples/image/635d790c2c5ff61e764e1b495bimage.jpg', 73);
+	('/products/samples/image/63547c768cb0d61e764e1b495bimage.jpg', 50),
+	('/products/samples/image/63547d1bcc0f961e764e1b495bimage.jpg', 51),
+	('/products/samples/image/63548ca16d35a61e764e1b495bimage.jpg', 52),
+	('/products/midi/image/635495a50001961e764e1b495bimage.jpg', 53),
+	('/products/midi/image/6354970cb9d0861e764e1b495bimage.jpg', 54),
+	('/products/midi/image/6355bc7dc0e3561e764e1b495bimage.jpg', 55),
+	('/products/midi/image/6355bcca2952b61e764e1b495bimage.jpg', 56),
+	('/products/midi/image/6355bd045480b61e764e1b495bimage.jpg', 57),
+	('/products/samples/image/6355c1245c66061e764e1b495bimage.jpg', 58),
+	('/products/samples/image/635cefbc3eb0661e764e1b495bimage.jpg', 59),
+	('/products/samples/image/635d2e7b0a73e61e764e1b495bimage.jpg', 60),
+	('/products/samples/image/635d6ba1071db61e764e1b495bimage.jpg', 61),
+	('/products/samples/image/635d6c1e2548261e764e1b495bimage.jpg', 62),
+	('/products/samples/image/635d6ef4707e261e764e1b495bimage.jpg', 63),
+	('/products/samples/image/635d6fae7ac2a61e764e1b495bimage.jpg', 64),
+	('/products/samples/image/635d71e5172b961e764e1b495bimage.jpg', 65),
+	('/products/samples/image/635d7227bd2c061e764e1b495bimage.jpg', 66),
+	('/products/samples/image/635d729430ea361e764e1b495bimage.jpg', 67),
+	('/products/samples/image/635d77305419b61e764e1b495bimage.jpg', 68),
+	('/products/samples/image/635d7791898a861e764e1b495bimage.jpg', 69),
+	('/products/samples/image/635d77b95347761e764e1b495bimage.jpg', 70),
+	('/products/samples/image/635d77c82593961e764e1b495bimage.jpg', 71),
+	('/products/samples/image/635d7877d6de161e764e1b495bimage.jpg', 72),
+	('/products/samples/image/635d790c2c5ff61e764e1b495bimage.jpg', 73);
 
 -- Dumping structure for table sampleselling.samplepath
 CREATE TABLE IF NOT EXISTS `samplepath` (
@@ -214,30 +214,30 @@ CREATE TABLE IF NOT EXISTS `samplepath` (
 
 -- Dumping data for table sampleselling.samplepath: ~22 rows (approximately)
 INSERT INTO `samplepath` (`samplePath`, `sampleID`) VALUES
-	('/sampleSelling-master/products/samples/zip/63547c7683683meow.zip', 50),
-	('/sampleSelling-master/products/samples/zip/63547d1bc3c50meow.zip', 51),
-	('/sampleSelling-master/products/samples/zip/63548ca16498cmeow.zip', 52),
-	('/sampleSelling-master/products/midi/zip/635495a4ef6c8meow.zip', 53),
-	('/sampleSelling-master/products/midi/zip/6354970cb2765meow.zip', 54),
-	('/sampleSelling-master/products/midi/zip/6355bc7dbdd01meow.zip', 55),
-	('/sampleSelling-master/products/midi/zip/6355bcca23b02meow.zip', 56),
-	('/sampleSelling-master/products/midi/zip/6355bd044e988meow.zip', 57),
-	('/sampleSelling-master/products/samples/zip/6355c12452fa5meow.zip', 58),
-	('/sampleSelling-master/products/samples/zip/635cefbc2bc23meow.zip', 59),
-	('/sampleSelling-master/products/samples/zip/635d2e7af1010meow.zip', 60),
-	('/sampleSelling-master/products/samples/zip/635d6ba0f292bmeow.zip', 61),
-	('/sampleSelling-master/products/samples/zip/635d6c1e1ba1fmeow.zip', 62),
-	('/sampleSelling-master/products/samples/zip/635d6ef465a4fmeow.zip', 63),
-	('/sampleSelling-master/products/samples/zip/635d6fae72283meow.zip', 64),
-	('/sampleSelling-master/products/samples/zip/635d71e5127a8meow.zip', 65),
-	('/sampleSelling-master/products/samples/zip/635d7227b817cmeow.zip', 66),
-	('/sampleSelling-master/products/samples/zip/635d72942fb15meow.zip', 67),
-	('/sampleSelling-master/products/samples/zip/635d77304e5fcmeow.zip', 68),
-	('/sampleSelling-master/products/samples/zip/635d779180164meow.zip', 69),
-	('/sampleSelling-master/products/samples/zip/635d77b9487a2meow.zip', 70),
-	('/sampleSelling-master/products/samples/zip/635d77c81faecmeow.zip', 71),
-	('/sampleSelling-master/products/samples/zip/635d7877d242bmeow.zip', 72),
-	('/sampleSelling-master/products/samples/zip/635d790c2799fmeow.zip', 73);
+	('/products/samples/zip/63547c7683683meow.zip', 50),
+	('/products/samples/zip/63547d1bc3c50meow.zip', 51),
+	('/products/samples/zip/63548ca16498cmeow.zip', 52),
+	('/products/midi/zip/635495a4ef6c8meow.zip', 53),
+	('/products/midi/zip/6354970cb2765meow.zip', 54),
+	('/products/midi/zip/6355bc7dbdd01meow.zip', 55),
+	('/products/midi/zip/6355bcca23b02meow.zip', 56),
+	('/products/midi/zip/6355bd044e988meow.zip', 57),
+	('/products/samples/zip/6355c12452fa5meow.zip', 58),
+	('/products/samples/zip/635cefbc2bc23meow.zip', 59),
+	('/products/samples/zip/635d2e7af1010meow.zip', 60),
+	('/products/samples/zip/635d6ba0f292bmeow.zip', 61),
+	('/products/samples/zip/635d6c1e1ba1fmeow.zip', 62),
+	('/products/samples/zip/635d6ef465a4fmeow.zip', 63),
+	('/products/samples/zip/635d6fae72283meow.zip', 64),
+	('/products/samples/zip/635d71e5127a8meow.zip', 65),
+	('/products/samples/zip/635d7227b817cmeow.zip', 66),
+	('/products/samples/zip/635d72942fb15meow.zip', 67),
+	('/products/samples/zip/635d77304e5fcmeow.zip', 68),
+	('/products/samples/zip/635d779180164meow.zip', 69),
+	('/products/samples/zip/635d77b9487a2meow.zip', 70),
+	('/products/samples/zip/635d77c81faecmeow.zip', 71),
+	('/products/samples/zip/635d7877d242bmeow.zip', 72),
+	('/products/samples/zip/635d790c2799fmeow.zip', 73);
 
 -- Dumping structure for table sampleselling.samples
 CREATE TABLE IF NOT EXISTS `samples` (

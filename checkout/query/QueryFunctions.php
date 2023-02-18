@@ -1,6 +1,6 @@
 <?php
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 $db_path = GlobalLinkFiles::getFilePath("db");
 require_once $db_path;
 class QueryFunctions extends Db

@@ -1,7 +1,7 @@
 <?php
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
-$pathdir = "$ROOT/sampleSelling-master/folder_creation/"; 
+require_once $ROOT . "/util/path_config/global_link_files.php";
+$pathdir = "$ROOT/folder_creation/"; 
 echo $pathdir;
   
 // Enter the name to creating zipped directory

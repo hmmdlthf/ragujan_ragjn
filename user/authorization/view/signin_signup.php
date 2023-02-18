@@ -1,7 +1,7 @@
 <?php
 session_start();
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 
 $style_path = GlobalLinkFiles::getDirectoryPath("style");
 $site_header = GlobalLinkFiles::getFilePath("site_header_php");
@@ -10,7 +10,7 @@ $query_path = GlobalLinkFiles::getFilePath("sample_single_view_query");
 $script = GlobalLinkFiles::getRelativePath("user_authorization_script");
 
 if (isset($_SESSION["userEmail"])) {
-    header('Location: http://localhost/sampleSelling-master/homepage'); 
+    header('Location: http://localhost/homepage'); 
 } else {
 ?>
     <!DOCTYPE html>

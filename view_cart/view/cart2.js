@@ -1,12 +1,12 @@
-getCustomerCartUrl = "/sampleSelling-master/viewcart/process/getCustomerCart.php";
-addtoCustomerCartUrl = "/sampleSelling-master/viewcart/process/addtoCustomerCart.php";
-showCartRowsUrl = "/sampleSelling-master/viewcart/process/showCartRows.php";
-addtoCartLocalStorageUrl = "/sampleSelling-master/viewcart/process/addtoCartLocalStorage.php";
-removeFromCustomerCartUrl = "/sampleSelling-master/viewcart/process/removeFromCustomerCart.php";
-getSubTotalUrl = "/sampleSelling-master/viewcart/process/getSubTotal.php";
+getCustomerCartUrl = "/viewcart/process/getCustomerCart.php";
+addtoCustomerCartUrl = "/viewcart/process/addtoCustomerCart.php";
+showCartRowsUrl = "/viewcart/process/showCartRows.php";
+addtoCartLocalStorageUrl = "/viewcart/process/addtoCartLocalStorage.php";
+removeFromCustomerCartUrl = "/viewcart/process/removeFromCustomerCart.php";
+getSubTotalUrl = "/viewcart/process/getSubTotal.php";
 
 
-let linkPathUrl_cart = "/sampleSelling-master/view_cart/util/get_relative_paths.php";
+let linkPathUrl_cart = "/view_cart/util/get_relative_paths.php";
 let getUrls_cart = async (name) => {
   let url;
   let formData = new FormData();

@@ -2,7 +2,7 @@
 
 session_start();
 if (!isset($_SESSION["userEmail"])) {
-   echo  "window.location=  http://localhost/sampleSelling-master/home/home.php";
+   echo  "window.location=  http://localhost/home/home.php";
    die();
 } else {
    $uname = $_POST["un"];

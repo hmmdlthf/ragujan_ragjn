@@ -1,9 +1,9 @@
 <?php
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 $folder_creation_path = GlobalLinkFiles::getFilePath("folder_creation");
 
-$file = $ROOT . "/sampleSelling-master/file_testing/a.zip";
+$file = $ROOT . "/file_testing/a.zip";
 echo $file;
 echo "<br>";
 echo "<br>";

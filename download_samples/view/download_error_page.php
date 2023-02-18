@@ -1,6 +1,6 @@
 <?php
 $ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once $ROOT . "/sampleSelling-master/util/path_config/global_link_files.php";
+require_once $ROOT . "/util/path_config/global_link_files.php";
 $home_page_shortend = GlobalLinkFiles::getRelativePath("home_page_shortend");
 $authenticate_download_url = GlobalLinkFiles::getRelativePath("authenticate_download");
 $header_url = GlobalLinkFiles::getFilePath("header_url");

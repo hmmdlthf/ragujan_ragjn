@@ -1,4 +1,4 @@
-// import { ServerSide } from "/sampleSelling-master/util/server_side.js";
+// import { ServerSide } from "/util/server_side.js";
 
 let nlinks = document.querySelectorAll(".navlinks");
 let upBTN = document.getElementById("uploadbutton");
@@ -8,10 +8,10 @@ let uploadFilesOnly = document.getElementById("uploadFileOnly");
 let uploadAudioOnly = document.getElementById("uploadAudioOnly");
 let uploadImageOnly = document.getElementById("uploadImageOnly");
 
-const sample_display_drums_process_url = "/sampleSelling-master/product_view/audio_samples/sample_display_drums_process.php";
-const sample_display_melodies_process_url = "/sampleSelling-master/product_view/audio_samples/sample_display_melodies_process.php";
-const sample_search_url = "/sampleSelling-master/product_view/audio_samples/bySearch.php";
-const common_next_function_url_template = "/sampleSelling-master/product_view/audio_samples/";
+const sample_display_drums_process_url = "/product_view/audio_samples/sample_display_drums_process.php";
+const sample_display_melodies_process_url = "/product_view/audio_samples/sample_display_melodies_process.php";
+const sample_search_url = "/product_view/audio_samples/bySearch.php";
+const common_next_function_url_template = "/product_view/audio_samples/";
 const drum_sample_div = "sample_display_drums_process";
 const melody_sample_div = "sample_display_melodies_process";
 
@@ -206,7 +206,7 @@ function audioEnded(audio){
   pausemusic(audio_id);
 }
 function viewbuy(x) {
-  window.location = "/sampleSelling-master/singleview?X=" + x;
+  window.location = "/singleview?X=" + x;
 }
 
 

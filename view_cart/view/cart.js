@@ -1,6 +1,6 @@
 
 
-const checkout_page = "/sampleSelling-master/checkout/view/checkout.php";
+const checkout_page = "/checkout/view/checkout.php";
 function checkoutPageRedirect(){
          window.location = checkout_page;
 }
@@ -13,7 +13,7 @@ function getCart() {
   let localstorageArray = globalThis.localStorage.getItem("cart");
 
   if (localstorageArray == null) {
-    const url = "/sampleSelling-master/view_cart/process/get_customer_cart.php";
+    const url = "/view_cart/process/get_customer_cart.php";
     fetch(url, { method: "POST" })
       .then((response) => response.json())
       .then((text) => {
@@ -30,7 +30,7 @@ function getCart() {
 let sendToCustomerCart = () => {
   let cartArray = JSON.stringify(getCart());
 
-  const url = "/sampleSelling-master/view_cart/process/add_to_customer_cart.php";
+  const url = "/view_cart/process/add_to_customer_cart.php";
   const formData = new FormData();
   formData.append("array", cartArray);
   fetch(url, { method: "POST", body: formData })
@@ -44,7 +44,7 @@ let sendToCustomerCartSingle = (sId, qty) => {
   cartArray = JSON.stringify([{ id: sId, qty: qty }]);
 
   console.log(cartArray);
-  const url = "/sampleSelling-master/view_cart/process/add_to_customer_cart.php";
+  const url = "/view_cart/process/add_to_customer_cart.php";
   const formData = new FormData();
   formData.append("array", cartArray);
   fetch(url, { method: "POST", body: formData })
@@ -76,7 +76,7 @@ let showCartItems = (cart) => {
   if (getCart != null && cartRows != undefined) {
     const f = new FormData();
     f.append("cartArrays", JSON.stringify(cartRows));
-    let url = "/sampleSelling-master/view_cart/process/show_cart_rows.php";
+    let url = "/view_cart/process/show_cart_rows.php";
     let send = fetch(url, { body: f, method: "POST" })
       .then((response) => response.text())
       .then((text) => {
@@ -95,7 +95,7 @@ let newQtySelect = (id, qtynSPrice) => {
   let inputID = document.getElementById("cartQtyId" + id);
   let changingQty = inputID.value;
   console.log(changingQty);
-  let url = "/sampleSelling-master/view_cart/process/add_to_cart_local_storage.php";
+  let url = "/view_cart/process/add_to_cart_local_storage.php";
   let existingCart = getCart();
   let localArray = [];
   let intID;
@@ -154,7 +154,7 @@ let newQtySelect = (id, qtynSPrice) => {
 
 let removeFromCart = (id) => {
   let cartRows = getCart();
-  const url = "/sampleSelling-master/view_cart/process/remove_from_customer_cart.php";
+  const url = "/view_cart/process/remove_from_customer_cart.php";
   const formdata = new FormData();
 
   formdata.append("id", id);
@@ -178,7 +178,7 @@ let upDateSubTotal = () => {
   let cartRows = JSON.stringify(getCart());
   console.log("cartrows is " + cartRows);
   if (cartRows != undefined) {
-    let url = "/sampleSelling-master/view_cart/process/get_sub_total.php";
+    let url = "/view_cart/process/get_sub_total.php";
     const form = new FormData();
     form.append("cartRows", cartRows);
     let sendFetch = fetch(url, { body: form, method: "POST" })
