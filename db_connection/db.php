@@ -12,10 +12,10 @@ class Db
     {   
 
         $this->servername = "localhost";
-        $this->dbname = "sampleselling";
-        $this->password = "ragJN100Mania";
+        $this->dbname = "u793985497_ragjn_database";
+        $this->password = "Ragujan123@";
         $this->port = 3306;
-        $this->username = "root";
+        $this->username = "u793985497_ragujan";
 
    
         try {
