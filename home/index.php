@@ -24,7 +24,8 @@ $audio_sample_display_page_shortend = GlobalLinkFiles::getRelativePath("audio_sa
     <title>BeatSample</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <?php include "/head/link_tags.php" ?>
+    <?php include "head/link_tags.php"; ?>
+    <link rel="shortcut icon" href="/resources/icon_images/logo_transparent.png" type="image/x-icon">
 </head>
 
 <body>
